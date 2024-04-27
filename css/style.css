@@ -55,30 +55,44 @@ body {
     padding: 5%;
 }
 
-.icono-ferrari {
+.icono-marca {
     width: 130px; /* Ancho deseado */
     height: auto; /* Altura automática para mantener la proporción */
+    transition: transform 0.3s ease; /* Transición suave para la transformación */
+    
   }
-
+  
   .overlay-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 20%);
     color: white;
     text-align: center;
     opacity: 0; /* Inicialmente oculto */
-    transition: opacity 0.3s ease; /* Transición suave */
-}
+    transition: opacity 1s ease; /* Transición suave */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+    padding: 10px; /* Espacio alrededor del texto */
+    box-shadow: 0 0 10px rgb(231, 6, 6); /* Sombra blanca */
+    border-radius: 50px;
 
-.blur-image {
+  }
+  
+  .blur-image {
     transition: filter 0.3s ease; /* Transición suave */
-}
-
-.overlay-link:hover .overlay-text {
+  }
+  
+  .overlay-link:hover .overlay-text {
     opacity: 1; /* Mostrar el texto al pasar el ratón */
-}
-
-.overlay-link:hover .blur-image {
+  }
+  
+  .overlay-link:hover .blur-image {
     filter: blur(5px); /* Aplicar desenfoque al pasar el ratón */
+  }
+  
+  .overlay-link:hover .icono-marca {
+    transform: translate(0, -100%) scale(1.2) translateY(-20%); /* Mover y escalar el icono al pasar el ratón */
+    filter: brightness(150%); /* Aumentar el brillo al pasar el ratón */
+
 }
+  
