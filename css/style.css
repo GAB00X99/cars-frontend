@@ -1,8 +1,5 @@
-/******
-Autor: EWebik
-web: https://ewebik.com.mx
-*******/
 
+@import url("https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700; 800;900& display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -10,92 +7,33 @@ web: https://ewebik.com.mx
 }
 
 body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Poppins", sans-serif;    
+}
+.background-container {
+    background-image: url('tu-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Agrega cualquier otra propiedad necesaria */
 }
 
-.ewk_navbar {
-    background-color: rgba(109, 109, 109, 0.74)!important;
-}
-
-.ewk_navbar div, .ewk_navbar ul{
-    background-color: transparent !important;
-}
-.ewk_navbar .navbar-nav .nav-link {
-    color: white !important;
-}
-.ewk_cont_sec_1{
+.cont_sec_1{
     padding: 10%;
 }
 
-.ewk_cont_sec_1_link{
+.cont_sec_1_link{
     padding: 5%;
 }
 
-.ewk_cont_sec_1_link a{
+.cont_sec_1_link a{
     width: 200px;
 }
 
-.ewk_cont_sec_1 hr{
+.cont_sec_1 hr{
     border-top: 1px solid rgba(1, 1,1, 0.3);
 }
 
-.ewk_cont_footer{
-    background-color: rgba(1, 1, 1, 0.7);
-    padding: 10%;
-    color: #fff;
-    margin-top: 100px;
-}
-
-.ewk_cont_footer a{
-    color: #fff;
-    text-decoration: none;
-    display: block;
-}
-.ewk_cont_img_footer{
-    padding: 5%;
-}
 
 img {
 border-radius: 10px;
 }
 
-.icono-marca {
-    width: 130px; /* Ancho deseado */
-    height: auto; /* Altura automática para mantener la proporción */
-    transition: transform 0.3s ease; /* Transición suave para la transformación */
-    
-  }
-  
-  .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 30%);
-    color: black;
-    text-align: center;
-    opacity: 0; /* Inicialmente oculto */
-    transition: opacity 1s ease; /* Transición suave */
-    padding: 10px; /* Espacio alrededor del texto */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra del texto más oscura */
-}
-
-
-  
-  .blur-image {
-    transition: filter 0.3s ease; /* Transición suave */
-  }
-  
-  .overlay-link:hover .overlay-text {
-    opacity: 1; /* Mostrar el texto al pasar el ratón */
-  }
-  
-  .overlay-link:hover .blur-image {
-    filter: blur(5px) brightness(120%); /* Aplicar desenfoque al pasar el ratón */
-
-  }
-  
-  .overlay-link:hover .icono-marca {
-    transform: translate(0, -100%) scale(1.2) translateY(-20%); /* Mover y escalar el icono al pasar el ratón */
-    filter: brightness(1000%); /* Aumentar el brillo al pasar el ratón */
-
-}

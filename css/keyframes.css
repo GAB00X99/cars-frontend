@@ -1,4 +1,4 @@
-@keyframes ewk_keyframes_aparecer_de_arriba {
+@keyframes keyframes_aparecer_de_arriba {
     from {
         opacity: 0;
         top: -150px;
@@ -9,7 +9,7 @@
     }
 }
 
-@-webkit-keyframes ewk_keyframes_aparecer_de_arriba {
+@-webkit-keyframes keyframes_aparecer_de_arriba {
     from {
         opacity: 0;
         top: -150px;
