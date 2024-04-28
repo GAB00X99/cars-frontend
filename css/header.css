@@ -4,18 +4,25 @@
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: transparent;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    
 }
 
 .logo {
-    font-size: 32px;
-    color: #fff;
+    font-size: 25px;
+    color: #fff; /* Color blanco para el texto del logo */
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 700; /* Grosor de la fuente */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    background-color: red; /* Fondo rojo para el logo */
+    padding: 5px 10px; /* Añadir espaciado alrededor del logo */
+    border-radius: 50%; /* Agregar esquinas redondeadas */
+    font-family: "Sarina", cursive;
+
 }
 
 .navbar a {
@@ -34,10 +41,22 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: #ff0000;
     transition: .3s;
 }
 
 .navbar a:hover::before {
     width: 100%;
 }
+.cont_banner h1 {
+    font-family: "Sarina", cursive;
+
+    color: white; /* Color blanco para el texto */
+}
+
+.cont_banner h1::first-letter {
+    color: white; /* Color blanco para la primera letra */
+    background-color: red; /* Fondo rojo para la primera letra */
+    border-radius: 50%;
+}
+

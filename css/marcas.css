@@ -3,6 +3,15 @@
     height: auto; /* Altura automática para mantener la proporción */
     transition: transform 0.3s ease; /* Transición suave para la transformación */
 }
+.img_marcas {
+  border-radius: 10px;
+  }
+  
+  .img_marcas {
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Cambia los valores según tus preferencias */
+}
+ 
   
 .overlay-text {
     position: absolute;
@@ -14,8 +23,11 @@
     opacity: 0; /* Inicialmente oculto */
     transition: opacity 0,5s ease; /* Transición suave */
     padding: 10px; /* Espacio alrededor del texto */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra del texto más oscura */
-}
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.8); /* Sombra del texto más oscura */
+    font-family: "Romanesco", cursive;
+    font-size: 2em;
+
+  }
 
 
   
