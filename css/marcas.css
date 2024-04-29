@@ -23,7 +23,7 @@
     opacity: 0; /* Inicialmente oculto */
     transition: opacity 0,5s ease; /* Transición suave */
     padding: 10px; /* Espacio alrededor del texto */
-    text-shadow: 0 0 0px rgba(0, 0, 0, 0.8); /* Sombra del texto más oscura */
+    text-shadow: 2px 2px 4px rgb(105, 105, 105); /* Cambia los valores según tus preferencias */
     font-family: "Romanesco", cursive;
     font-size: 2em;
 
